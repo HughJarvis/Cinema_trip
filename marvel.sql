@@ -80,4 +80,6 @@ DELETE FROM movies WHERE id BETWEEN 8 AND 10;
 
 DELETE FROM movies WHERE id >= 11 AND id <= 15;
 
+DELETE FROM name 	WHERE name LIKE ('%ugh%')
+
 SELECT * FROM movies
